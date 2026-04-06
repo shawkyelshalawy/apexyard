@@ -150,7 +150,7 @@ Check for:
 
 ## Ticket Integration
 
-When critical or high vulnerabilities are detected, create a tracking ticket in the team's ticket system (Linear / Jira / GitHub Issues — whatever the project uses):
+When critical or high vulnerabilities are detected, create a tracking ticket. The default is **GitHub Issues** in the project's own repo via `gh issue create`. Teams using a different tracker (Linear, Jira, etc.) can substitute the equivalent command.
 
 **Vulnerability Ticket Template**:
 

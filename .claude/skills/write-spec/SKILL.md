@@ -36,7 +36,7 @@ Ask conversationally:
 
 If the project has integrations available:
 
-- **Ticket tracker (Linear / Jira / GitHub Issues)** — search for related tickets, epics, or features
+- **GitHub Issues** (the default tracker) — search for related issues, epics, or features in the project's repo. Teams using other trackers (Linear, Jira) can substitute the equivalent search.
 - **Notion / Confluence** — search for related research, specs, or design docs
 - **Figma** — pull related mockups or wireframes
 

@@ -2,7 +2,8 @@
 # Copy this to .github/workflows/pr-title-check.yml in your project.
 #
 # Purpose: ensure all PRs have a ticket ID in the title.
-# Supports any uppercase prefix (Linear, Jira, custom) or GitHub Issues (#58).
+# Default: GitHub Issues (#58). Also supports any uppercase tracker prefix
+# (e.g. ABC-123, PROJ-456) for teams using Linear, Jira, or similar.
 
 name: PR Title Check
 
