@@ -1,0 +1,28 @@
+company:
+  name: Mubein
+  mission: AI-powered audit intelligence
+  region: MENA
+
+team:
+  - name: Founder
+    role: product-lead
+    department: product
+  - name: Backend Owner
+    role: backend-engineer
+    department: engineering
+  - name: Frontend Owner
+    role: frontend-engineer
+    department: engineering
+
+tech_stack:
+  backend: FastAPI
+  frontend: Next.js
+  database: PostgreSQL + pgvector
+  cache_queue: Redis + Celery
+  infra: Docker + Docker Compose
+
+quality_bar:
+  security_first: true
+  privacy_first: true
+  auditability_required: true
+  zero_data_storage: true

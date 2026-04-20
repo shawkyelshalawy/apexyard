@@ -1,0 +1,16 @@
+version: 1
+projects:
+  - name: mubein-backend
+    repo: shawkyelshalawy/be_mubein
+    docs: projects/mubein-backend
+    status: active
+
+  - name: mubein-platform
+    repo: shawkyelshalawy/mubein_platform
+    docs: projects/mubein-platform
+    status: active
+
+  - name: mubein-landing
+    repo: shawkyelshalawy/Mubein-landing
+    docs: projects/mubein-landing
+    status: active
