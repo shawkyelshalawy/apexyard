@@ -1,2 +1,15 @@
-workspace/*
+# ApexYard per-session state — active ticket, pending / completed reviews,
+# onboarding flag. Per-machine, per-clone. Never committed.
+.claude/session/
+
+# ApexYard per-project config written by /onboard. Contains deploy URLs and
+# sensitive-topic notes that should not leak to git — keep it local.
+.claude/project-config.json
+
+# Claude Code per-machine settings (permission overrides, local tool config)
+.claude/settings.local.json
+
+# Live working copies of managed projects. Each is its own git repo — they
+# must not be double-tracked from the ops repo.
+workspace/*/
 !workspace/README.md
